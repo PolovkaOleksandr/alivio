@@ -1,0 +1,50 @@
+.hero {
+    padding-top: 175px;
+    padding-bottom: 300px;
+  
+    background-image: url(../../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    background: url(../../img/hero.jpg) cover/center no-repeat;
+  
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (-o-min-device-pixel-ratio: 2/1),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../../img/hero-2x.jpg);
+    }
+    padding-left: 275px;
+    padding-right: 1205px;
+    margin-bottom: 110px;
+  }
+.hero-title{
+    color: #01996D;
+font-family: Georgia;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.hero-text{
+    color: #484848;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 157%; /* 31.4px */
+}
+.hero-link{
+    padding:20px 50px;
+    border-radius: 4px;
+border: 1px solid #01996D;
+background: #01996D;
+color: #FFF;
+text-align: center;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 125% */
+}
